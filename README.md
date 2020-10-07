@@ -66,5 +66,5 @@ The application bases on the database created in the postgres. The app was creat
 
 ## Status
 
-The project is _in progress_. The next step in planned development of the application is to develop JS functionality :)
+The project is finished.
 

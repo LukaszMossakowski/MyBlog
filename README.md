@@ -1,6 +1,6 @@
-# Give in good hands - donation app
+# Blog - blog app
 
-### Python web application prepared to maintain database with functionalities typical for logistic website
+### Python web application prepared to maintain blog website
 
 ## Table of contents
 
@@ -11,10 +11,11 @@
 
 ## General info
 
-The app was created as my one of many individual projects prepared as part of Portfolio Lab at Coders Lab after 3 months Python Developer course in Coders Lab IT school. The main aim was to sum up and develope skills in Django, JavaScript and many others. The subject project was prepared under the supervision of a dedicated mentor.
+The app was created as my one of many individual projects prepared as self development prject after 3 months Python Developer course at Coders Lab IT school. The main aim was to 
+continue personal development as a Junior Python Developer.
 
 
-The 'Give in good hands' application allows:
+The application allows:
 
 - new user [registration using email as username] (by customizing user model) - [link to screenshot](./img_readme/5_register_form.png), app verifies whether email is unique, new user is not active, after registration new user gets email message with unique link to activate user account (SMTP method via gmail) - [link to screenshot](./img_readme/10_registration_email_with_activation_link.png)
 - counters of donations and number of supported institutions created with aggregate and annotate methods - [link to screenshot](./img_readme/2_aggregate_annotate.png)
@@ -40,7 +41,7 @@ and many others
 * Django
 * JavaScript (AJAX, jQuery, JSON)
 * pytest-django, psycopq2-binary, pytz, six, envfile
-* postgres
+* postgreSQL
 * IDE (PyCharm)
 
 The application bases on the database created in the postgres. The app was created in Django and JS with many different technics applied: [AJAX, jQuery and JsonRequest](./img_readme/11_AJAX_JS_submit_action.png) in practice [submit action via JavaScript to Django](./img_readme/14_summary_Js_form.png), [contact form with emailing to users with admin status (SMTP method)](./img_readme/4_contact_form.png), [custom user model](./img_readme/5_register_form.png) and [login by email not my username](./img_readme/6_login_form.png), activation user profile via personal [unique link send by email to a new user (SMTP method)](./img_readme/10_registration_email_with_activation_link.png), custom delete method preventing deletion of the last admin, set of functionalities as 'forgot your password', ['set new password'](./img_readme/8_password_reset_form.png) and following, [aggregate and annotate methods in practice](./img_readme/2_aggregate_annotate.png), creating forms, models and views (generic and straight classic views and generic forms with applied widgets), custom password unique validation methods.

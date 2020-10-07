@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '5e+(lrnbl7jphgp(ukpfjrie*f$pt6mne-*q9%f@5gi^*xs!-u'
+SECRET_KEY = '***************************************'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -84,7 +84,7 @@ DATABASES = {
         'NAME': 'dbblog',
         'HOST': "localhost",
         'USER': 'postgres',
-        'PASSWORD': 'coderslab'
+        'PASSWORD': '***********'
     }
 }
 
@@ -127,6 +127,6 @@ STATIC_URL = '/static/'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'mossakowskilukasz@gmail.com'
-EMAIL_HOST_PASSWORD = 'Mossie2122'
+EMAIL_HOST_PASSWORD = '************'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False

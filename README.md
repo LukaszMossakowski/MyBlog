@@ -1,4 +1,4 @@
-# Blog - blog app
+# Blog app
 
 ### Python web application prepared to maintain blog website
 
@@ -40,7 +40,7 @@ and many others
 * Python 3.8.3
 * Django
 * JavaScript (AJAX, jQuery, JSON)
-* pytest-django, psycopq2-binary, pytz, six, envfile
+* pytest-django, psycopq2-binary, pytz, django-taggit, Markdown,
 * postgreSQL
 * IDE (PyCharm)
 

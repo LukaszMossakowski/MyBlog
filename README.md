@@ -16,7 +16,10 @@ The app was created as my one of many individual projects prepared as self devel
 
 The application allows:
 
-- add posts [registration using email as username] (by customizing user model) - [link to screenshot](./img_readme/5_register_form.png), app verifies whether email is unique, new user is not active, after registration new user gets email message with unique link to activate user account (SMTP method via gmail) - [link to screenshot](./img_readme/10_registration_email_with_activation_link.png)
+- add and present list of posts, tags and comments with information about date, time and author of publication - [link to screenshot](./img_readme/7_pagination.png),
+- pagination being in place at template with list of posts - [link to screenshot](./img_readme/6_pagination.png), [link to screenshot](./img_readme/7_pagination.png),
+- share the chosen post by the website guest with any addressee via email, the proper email message is send from admin email address to the defined addressee using SMTP method) - [link to screenshot](./img_readme/10_share_post_add_comment.png),
+
 
 
 

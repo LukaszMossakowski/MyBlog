@@ -33,7 +33,6 @@ and others
 * Bootstrap 4
 * Python 3.8.3
 * Django
-* JavaScript (AJAX, jQuery, JSON)
 * pytest-django, psycopq2-binary, pytz, django-taggit, Markdown,
 * postgreSQL
 * IDE (PyCharm)

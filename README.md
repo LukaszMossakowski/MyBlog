@@ -11,11 +11,14 @@
 
 ## General info
 
-The app was created as my one of many individual projects prepared as self development prject after 3 months Python Developer course at Coders Lab IT school. The main aim was to 
-continue personal development as a Junior Python Developer.
+The app was created as my one of many individual projects prepared as self development project after 3 months Python Developer course at Coders Lab IT school. The main aim was to continue personal development as a Junior Python Developer.
 
 
 The application allows:
+
+- add posts [registration using email as username] (by customizing user model) - [link to screenshot](./img_readme/5_register_form.png), app verifies whether email is unique, new user is not active, after registration new user gets email message with unique link to activate user account (SMTP method via gmail) - [link to screenshot](./img_readme/10_registration_email_with_activation_link.png)
+
+
 
 - new user [registration using email as username] (by customizing user model) - [link to screenshot](./img_readme/5_register_form.png), app verifies whether email is unique, new user is not active, after registration new user gets email message with unique link to activate user account (SMTP method via gmail) - [link to screenshot](./img_readme/10_registration_email_with_activation_link.png)
 - counters of donations and number of supported institutions created with aggregate and annotate methods - [link to screenshot](./img_readme/2_aggregate_annotate.png)

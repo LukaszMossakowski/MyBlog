@@ -16,10 +16,14 @@ The app was created as my one of many individual projects prepared as self devel
 
 The application allows:
 
-- add and present list of posts, tags and comments with information about date, time and author of publication - [link to screenshot](./img_readme/7_pagination.png),
-- pagination being in place at template with list of posts - [link to screenshot](./img_readme/6_pagination.png), [link to screenshot](./img_readme/7_pagination.png),
-- share the chosen post by the website guest with any addressee via email, the proper email message is send from admin email address to the defined addressee using SMTP method) - [link to screenshot](./img_readme/10_share_post_add_comment.png),
-
+- add and present list of posts, tags and comments with information about date, time and author of publication, posts and comment are segregated from the most recent, comments are counted and the number of comments is presented over the comments at post detail template, also number of posts are counted and the number of published posts is presented in the separate column in the website as presented in the picture, posts which are listed are filtered according to criterions as for instance: stutus, using custom model manager what enable the admin to unactivate posts with unwanted content - [link to screenshot](./img_readme/7_pagination.png), [link to screenshot](./img_readme/2_admin_posts_view.png), [link to screenshot](./img_readme/4_custom_model_manager.png)
+- divide posts per pages (pagination) at the template with list of posts - [link to screenshot](./img_readme/6_pagination.png), [link to screenshot](./img_readme/7_pagination.png),
+- view details of the post chosen by the user at the post list template - [link to screenshot](./img_readme/10_share_post_add_comment.png),
+- share the chosen post by the guest with any addressee via email, the proper email message is send from admin email address to the defined addressee using SMTP method - [link to screenshot](./img_readme/23_share_template.png), in result the addressee get an email with the proper information as in the picture - [link to screenshot](./img_readme/14_email_with_confirmation.png)
+- thanks to the use of tags, detail view of each post enable user to view similar posts - [link to screenshot](./img_readme/15_similar_posts.png)
+- latest posts and most commented posts are presented in the separate column in the website as presented in the picture - [link to screenshot](./img_readme/15_similar_posts.png)
+- the website is available for subscription - [link to screenshot](./img_readme/15_similar_posts.png)
+- the website guest is available for searching posts using search form with search field which is available for search in two related columns of the model: title and body of the post, result are presented at the template with information about numbers of results with list of found posts and abbreviated body of the post (truncatewords) - [link to screenshot](./img_readme/21_search_results.png)
 
 
 

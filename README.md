@@ -64,6 +64,7 @@ The application bases on the database created in the postgres. The app was creat
 ![8_forms_both_classes](./img_readme/8_forms_both_classes.png)
 ![9_SMTP_server_settings](./img_readme/9_SMTP_server_settings.png)
 ![10_share_post_add_comment](./img_readme/10_share_post_add_comment.png)
+![23_share_template](./img_readme/23_share_template.png)
 ![11_share_post_confirmation](./img_readme/11_share_post_confirmation.png)
 ![12_add_new_comment](./img_readme/12_add_new_comment.png)
 ![13_comments](./img_readme/13_comments.png)

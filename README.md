@@ -37,7 +37,7 @@ and others
 * postgreSQL
 * IDE (PyCharm)
 
-The application bases on the database created in the postgreSQL. The app was created in Django, [share post form with emailing to any provided addressee using SMTP method](./img_readme/9_SMTP_server_settings.png), [custom admin model](./img_readme/3_admin_model.png), [custom model manager](./img_readme/4_custom_model_manager.png), [Taggable Manager (django-taggit)](./img_readme/4_custom_model_manager.png), [model function get absolute url (canonical url)](./img_readme/5_model_function_canonical url.png), [pagination](./img_readme/6_pagination.png), [forms created using either Form class as well as using ModelForm class](./img_readme/8_forms_both_classes.png), [custom template tags](./img_readme/16_custom_template_tags.png), [news feed for blog posts](./img_readme/17_feeds.png), [sitemap](./img_readme/18_sitemap.png), search field using [SearchVector with weights and annotate method](./img_readme/19_search_many_fields_view.png), [truncatewords and pluralize filter](./img_readme/20_search_template.png)
+The application bases on the database created in the postgreSQL. The app was created in Django, [share post form with emailing to any provided addressee using SMTP method](./img_readme/9_SMTP_server_settings.png), [custom admin model](./img_readme/3_admin_model.png), [custom model manager](./img_readme/4_custom_model_manager.png), [Taggable Manager (django-taggit)](./img_readme/4_custom_model_manager.png), [model function get absolute url (canonical url)](./img_readme/5_model_function_canonical_url.png), [pagination](./img_readme/6_pagination.png), [forms created using either Form class as well as using ModelForm class](./img_readme/8_forms_both_classes.png), [custom template tags](./img_readme/16_custom_template_tags.png), [news feed for blog posts](./img_readme/17_feeds.png), [sitemap](./img_readme/18_sitemap.png), search field using [SearchVector with weights and annotate method](./img_readme/19_search_many_fields_view.png), [truncatewords and pluralize filter](./img_readme/20_search_template.png)
 
 
 ## Screenshots
@@ -46,7 +46,7 @@ The application bases on the database created in the postgreSQL. The app was cre
 ![2_admin_posts_view](./img_readme/2_admin_posts_view.png)
 ![3_admin_model](./img_readme/3_admin_model.png)
 ![4_custom_model_manager](./img_readme/4_custom_model_manager.png)
-![5_model_function_canonical_url](./img_readme/5_model_function_canonical url.png)
+![5_model_function_canonical_url](./img_readme/5_model_function_canonical_url.png)
 ![6_pagination](./img_readme/6_pagination.png)
 ![7_pagination](./img_readme/7_pagination.png)
 ![8_forms_both_classes](./img_readme/8_forms_both_classes.png)
